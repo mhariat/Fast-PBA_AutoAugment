@@ -11,9 +11,9 @@ Google Brain.
 
 The code is also modified so that it can use the augmentation schedule policiy obtained via the official implementation of
 the [Population Based Augmentation](https://arxiv.org/abs/1905.05393) available [here](https://github.com/arcelien/pba).
-Population Base Augmentation is a method that learns a data-augmentation schedule policy that needs to be applied during
-training process. The underlying intuition being that at the beginning, there is no need to apply a very elaborated
-data-augmentation. However, the more the neural network learns, the better the data-augmentation should be.
+Population Base Augmentation is a method that learns a data-augmentation schedule policy and applied during training.
+The underlying intuition being that at the beginning, there is no need to perform a very elaborated data-augmentation.
+However, the more the neural network learns, the better the data-augmentation should be.
 Data-augmentation schedule policies can be found in the folder *schedules*.
 
 ## Table Results
