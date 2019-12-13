@@ -9,11 +9,12 @@ Google Brain.
 - Fast AutoAugment learns augmentation policies using a more efficient search strategy based on density matching.
 - Fast AutoAugment speeds up the search time by orders of magnitude while maintaining the comparable performances.
 
-The code is also modified so that it can use the official implementation of the paper
-[Population Based Augmentation](https://arxiv.org/abs/1905.05393). This method learns a data-augmentation schedule
-policy that needs to be applied during the training process. The underlying intuition being that at the
-beginning, there is no need to apply a very elaborated data-augmentation. However, the more the neural network learns, the
-better the data-augmentation should be. Data-augmentation schedule policies can be found in the folder *schedules*.
+The code is also modified so that it can use the augmentation schedule policiy obtained via the official implementation of
+the [Population Based Augmentation](https://arxiv.org/abs/1905.05393) available [here](https://github.com/arcelien/pba).
+Population Base Augmentation is a method that learns a data-augmentation schedule policy that needs to be applied during
+training process. The underlying intuition being that at the beginning, there is no need to apply a very elaborated
+data-augmentation. However, the more the neural network learns, the better the data-augmentation should be.
+Data-augmentation schedule policies can be found in the folder *schedules*.
 
 ## Table Results
 
