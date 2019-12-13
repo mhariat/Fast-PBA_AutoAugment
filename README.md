@@ -1,7 +1,7 @@
-# Comparison of Fast-AutoAugment and Population Based Augmentation
+# Comparison of Fast AutoAugment and Population Based Augmentation
 
 The code is an adaptation of the Official [Fast AutoAugment](https://arxiv.org/abs/1905.00397) implementation in
-PyTorch. Please see official implementation [here](https://github.com/kakaobrain/fast-autoaugment/).
+PyTorch available [here](https://github.com/kakaobrain/fast-autoaugment/).
 
 Fast AutoAugment is a simplified version of the well known [AutoAugment](https://arxiv.org/abs/1805.09501) paper of
 Google Brain.
